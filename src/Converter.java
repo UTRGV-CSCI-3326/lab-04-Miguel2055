@@ -3,11 +3,11 @@ public class Converter{
         
 // Convert the string strFloat into a float.
 String strFloat = "374.25";
-float from_strFloat = Float.parseFloat(374.25);
+float from_strFloat = Float.parseFloat(strFloat);
 
 // Convert the string strInt into an integer.
 String strInt = "1250";
-int from_strInt = Integer.parseInteger("1250");
+int from_strInt = Integer.parseInteger(strInt);
 
 // Convert the float floatNum into an integer.
 float floatNum = 56.715f;
